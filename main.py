@@ -105,3 +105,11 @@ if __name__ == "__main__":
 # //*[@id="root"]/div[3]/div/section[5]/div/div/div[2]/div/div[2]/div[6]/div[20]
 # //*[@id="root"]/div[3]/div/section[5]/div/div/div[2]/div/div[2]/div[24]
 # data-testid
+
+# from bs4 import BeautifulSoup
+
+# soup = BeautifulSoup(html_doc, 'html.parser')
+
+# articles = soup.find_all('div', {'data-testid': 'article'})
+# for article in articles:
+#     # Obtener información del artículo aquí
